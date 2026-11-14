@@ -18,7 +18,7 @@ Grok Bot template for Bitnxs, an onchain perpetuals protocol. It sends market br
 
 [![Import Bitnxs Bot on Grok Bot](https://img.shields.io/badge/Grok%20Bot-Import%20Bitnxs%20Bot-000000?style=for-the-badge)](https://x.ai/bot/HAGDFCFxPlzKEzw1XTyQH)
 
-Public API base: https://api.bitnxs.com
+API documentation: [Bitnxs API docs](https://www.bitnxs.com/#/docs)
 
 ## Scripts
 
