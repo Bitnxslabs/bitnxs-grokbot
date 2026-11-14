@@ -1,1 +1,33 @@
-# bitnxs-grokbot
+# Bitnxs Bot
+
+Grok Bot template for Bitnxs, an onchain perpetuals protocol. It sends market briefs and alerts from public Bitnxs data, and can trade on the user's own account through their API key. Every order, cancel, leverage change, and TP/SL waits for the user's explicit confirmation.
+
+## Skills
+
+| Skill | What it does |
+| --- | --- |
+| `bitnxs-getting-started` | First conversation: choose coins, a brief schedule, alert thresholds, and whether to trade. |
+| `bitnxs-market-brief` | Read-only market briefs and alerts from public data (price, funding, open interest, book, candles, trades). No API key. |
+| `bitnxs-trading` | Place, modify, or cancel orders, change leverage, and set TP/SL on the user's account. Each action waits for an explicit yes. |
+
+## Start
+
+1. Open https://www.bitnxs.com/trade, connect a wallet, and deposit.
+2. Optionally create an API key under More > API Keys.
+3. Import this Grok Bot template and follow the getting-started conversation. The API key is collected through a masked secret field, never in chat.
+
+Public API base: https://api.bitnxs.com
+
+## Scripts
+
+`scripts/snapshot.py` is a read-only market snapshot and uses only the Python standard library.
+
+`scripts/trade_min.py` needs `pip install "eth-account>=0.13"`. Set `BITNXS_API_KEY` and `BITNXS_USER`. Use `--dry-run` to preview a request and `--yes` to send it. `selftest` runs offline and does not use the network.
+
+## Risk notice
+
+Perpetual futures with leverage carry a high risk of loss, including total loss of margin. Nothing here is investment advice. The service is not available to residents of restricted regions including the United States, Canada, the United Kingdom and mainland China.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
