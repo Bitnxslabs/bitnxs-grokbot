@@ -12,13 +12,13 @@ Grok Bot template for Bitnxs, an onchain perpetuals protocol. It sends market br
 
 ## Start
 
-1. Open the Bitnxs trading page, connect a wallet, and deposit. [![Bitnxs Trade](https://img.shields.io/badge/Bitnxs-Trade-00A86B?style=for-the-badge)](https://www.bitnxs.com/trade)
+1. Open the Bitnxs trading page, connect a wallet, and deposit.
 2. Optionally create an API key under More > API Keys.
-3. Import this Grok Bot template and follow the getting-started conversation. The API key is collected through a masked secret field, never in chat.
+3. Import the Bitnxs Bot template on Grok Bot and follow the getting-started conversation. The API key is collected through a masked secret field, never in chat.
 
-[![Import Bitnxs Bot on Grok Bot](https://img.shields.io/badge/Grok%20Bot-Import%20Bitnxs%20Bot-000000?style=for-the-badge)](https://x.ai/bot/HAGDFCFxPlzKEzw1XTyQH)
-
-[![Bitnxs API Docs](https://img.shields.io/badge/Bitnxs-API%20Docs-1F6FEB?style=for-the-badge)](https://www.bitnxs.com/#/docs)
+<p align="center">
+<a href="https://www.bitnxs.com/trade"><img src="https://img.shields.io/badge/Bitnxs-Trade-00A86B?style=for-the-badge" alt="Bitnxs Trade"></a> <a href="https://x.ai/bot/HAGDFCFxPlzKEzw1XTyQH"><img src="https://img.shields.io/badge/Grok%20Bot-Import%20Bitnxs%20Bot-000000?style=for-the-badge" alt="Import Bitnxs Bot on Grok Bot"></a> <a href="https://www.bitnxs.com/#/docs"><img src="https://img.shields.io/badge/Bitnxs-API%20Docs-1F6FEB?style=for-the-badge" alt="Bitnxs API Docs"></a>
+</p>
 
 ## Scripts
 
