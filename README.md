@@ -16,6 +16,8 @@ Grok Bot template for Bitnxs, an onchain perpetuals protocol. It sends market br
 2. Optionally create an API key under More > API Keys.
 3. Import this Grok Bot template and follow the getting-started conversation. The API key is collected through a masked secret field, never in chat.
 
+[![Import Bitnxs Bot on Grok Bot](https://img.shields.io/badge/Grok%20Bot-Import%20Bitnxs%20Bot-000000?style=for-the-badge)](https://x.ai/bot/HAGDFCFxPlzKEzw1XTyQH)
+
 Public API base: https://api.bitnxs.com
 
 ## Scripts
